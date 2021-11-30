@@ -1,4 +1,6 @@
-while True:
+import itertools
+
+for i in itertools.count(0):
   num1 = int(input('Enter the first number: '))
   num2 = int(input('Enter the second number: '))
   ch = input("Enter which operation you want to perform: ")
